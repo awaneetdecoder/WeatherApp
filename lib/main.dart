@@ -25,19 +25,24 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(useMaterial3: true).copyWith(
+        scaffoldBackgroundColor: const Color.fromARGB(255, 165, 209, 254),
         appBarTheme: const AppBarTheme(
-          backgroundColor: Color.fromARGB(255, 79, 149, 184),
+          backgroundColor: Color.fromARGB(255, 63, 154, 200),
           foregroundColor: Colors.white,
         )
       ),
       darkTheme: ThemeData.dark(useMaterial3: true).copyWith(
+        scaffoldBackgroundColor: const Color.fromARGB(255, 108, 112, 116),
         appBarTheme: const AppBarTheme(
-          backgroundColor: Color(0xFF1F1F1F),
+          backgroundColor: Color.fromARGB(255, 81, 80, 80),
           foregroundColor: Colors.white,
-        )
+        ),
+        colorScheme: ColorScheme.dark(
+         surface: const Color(0xFF1E1E1E),
+        ),
       ),
       themeMode: _themeMode,
-      home: WeatherScreen(onThemeChange: _toggleTheme,),
+      home: WeatherScreen(onThemeChange: _toggleTheme),
     );
   }
 }
