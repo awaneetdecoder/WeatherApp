@@ -7,15 +7,6 @@ A responsive and feature-rich weather forecast application built with Flutter. I
 ---
 
 ## 📸 Showcase
-
-The most important part is showing your app in action. The best way to do this is with a GIF. You can use a free tool like [ScreenToGif](https://www.screentogif.com/) (for Windows) or Giphy Capture (for Mac) to record your app.
-
-*Record a short clip of you searching for a city and toggling the theme.*
-
-![Weather App Demo](link_to_your_gif.gif) 
-
-*After creating the GIF, upload it to your repository and replace `link_to_your_gif.gif` with the actual link to the file.*
-
 ### Screenshots
 | Light Mode | Dark Mode |
 | :---: | :---: |
