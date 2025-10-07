@@ -10,7 +10,7 @@ A responsive and feature-rich weather forecast application built with Flutter. I
 ### Screenshots
 | Light Mode | Dark Mode |
 | :---: | :---: |
-| ![Light Mode Screenshot](https://github.com/awaneetdecoder/WeatherApp/raw/main/assets/light_mode.png) | ![Dark Mode Screenshot](https://github.com/awaneetdecoder/WeatherApp/raw/main/assets/dark_mode.png) |
+| ![Light Mode Screenshot](assets/lightviewofweatherapp.png) | ![Dark Mode Screenshot](assets/darkviewofmyapp.png) |
 
 ---
 
